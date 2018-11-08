@@ -1,4 +1,8 @@
 /* Global */
+body {
+  background-color: black;
+}
+
 .fab {
   color: white;
 }
