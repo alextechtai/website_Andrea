@@ -1,3 +1,8 @@
+/* Global */
+.fab {
+  color: white;
+}
+
 header {
   padding: 154px 0 100px;
 }
@@ -12,12 +17,18 @@ section {
   padding: 150px 0;
 }
 
+/* Navigation Bar */
+
 .nav-link{
   color: white;
 }
 
 .navbar-brand{
   color: white;
+}
+
+.navCustom {
+  background-color: black;
 }
 
 .custom-toggler.navbar-toggler {
@@ -27,6 +38,7 @@ section {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* Home Section */
 
 #home {
   background-image: url("../img/home.jpg");
@@ -41,5 +53,53 @@ section {
 
 #logo {
   width: 40%;
+}
 
+/* About Section */
+
+.about {
+  background-color: black;
+  color: white;
+}
+
+/* Music Section */
+#music {
+  background-image: url("../img/music.jpg");
+  color: white;
+  width: 100%;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+#film {
+  background-image: url("../img/film.jpg");
+  color: white;
+  width: 100%;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+.photography {
+  background-color: black;
+}
+
+.photography h1 {
+  color: white;
+}
+
+.contact {
+  background-color: black;
+}
+
+.footerCustom {
+  background-color: black;
+  text-align: center;
 }
