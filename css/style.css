@@ -95,10 +95,6 @@ section {
   background-color: black;
 }
 
-.photography h1 {
-  color: white;
-}
-
 .contact {
   background-color: black;
 }
@@ -120,4 +116,27 @@ section {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.resume {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.resume h1 {
+  color: white;
+}
+
+.resume p {
+  color: white;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
